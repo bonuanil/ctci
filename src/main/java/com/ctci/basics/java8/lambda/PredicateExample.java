@@ -31,7 +31,6 @@ public class PredicateExample {
 
 
 
-
     public static <T> List<T> filterUsingStream(List<T> data, Predicate<T> predicate){
         return data.stream().filter(predicate).collect(Collectors.toList());
     }
